@@ -1,6 +1,11 @@
 #include <iostream>
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+using namespace std;
+
+int main ()
+{
+    int a, b;
+    cout << "Enter A & B: \n\n";
+    cin >> a >> b;
     return 0;
 }
